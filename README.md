@@ -31,5 +31,23 @@ This application is built using C# and follows SOLID principles:
 
 ## How to Run
 1. Clone the repository
-2. Open the solution in Visual Studio or preferred C# IDE
-3. Build and run the console application 
+2. Navigate to the project directory in your terminal/command prompt
+
+### Using Visual Studio
+- Open the solution in Visual Studio
+- Build the solution (Ctrl+Shift+B)
+- Run the application (F5 or Ctrl+F5)
+
+### Using .NET CLI
+- Build the application:
+  ```
+  dotnet build
+  ```
+- Run the application:
+  ```
+  dotnet run
+  ```
+- To run with specific arguments:
+  ```
+  dotnet run -- 3 0 1
+  ``` 
