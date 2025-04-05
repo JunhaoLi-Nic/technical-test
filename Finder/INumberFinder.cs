@@ -11,8 +11,8 @@ namespace MissingNumberFinder.Finder
         /// <summary>
         /// Finds the missing number in a sequence of integers.
         /// </summary>
-        /// <param name="nums">An array of integers representing the sequence.</param>
+        /// <param name="numbers">An array of integers representing the sequence.</param>
         /// <returns>The missing integer in the sequence.</returns>
-        int FindMissingNumber(int[] nums);
+        int FindNumber(int[] numbers);
     }
 } 
